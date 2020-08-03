@@ -1,0 +1,51 @@
+git --version
+git config --global user.name= "swapnil shukla"
+git config --global user.email ="swapnil.shukla1508@gmail.com"
+git config --list
+git help config
+git config --help
+ls
+cd local-repo
+git init
+rm -rf .git for removing repo
+ls -la
+git status 
+touch.gitignore
+.DS_Store
+.project
+*.pyc
+adding all file
+git add -A
+git status
+git reset
+git reset calc.py
+for commiting
+git commit -m"Initial commit"
+clonning a remote repo:
+git clone <url> <where to clone>
+git clone https://github.com/Your_username/your_repository .
+git remote -v
+git branch -a
+git diff
+git status
+git add -A
+git commit -m"multiplyfunction"
+git pull origin master
+git push origin master
+git branch calc_divide
+git branch
+git checkout calc_divide
+git push -u origin calc_divide
+git branch -a
+Merge a branch:
+git checkout master
+git pull origin master
+git branch --merged
+git merge calc_divide
+git push origin master
+git branch --merged
+Delete a branch:
+git branch -d calc_divide
+git branch -a
+git push origin --delete calc_divide
+
